@@ -88,7 +88,7 @@ export const editorCss = `
     height: 100%;
     text-align: right;
     color: #999;
-    z-index: 2;
+    z-index: 5; /* above "gutter" */
   }
 
   .codeflask__lines__line {
@@ -107,6 +107,6 @@ export const editorCss = `
     width: ${LINE_NUMBER_WIDTH};
     height: 100%;
     background: #eee;
-    z-index: 1;
+    z-index: 4; /* above editor contents */
   }
 `
