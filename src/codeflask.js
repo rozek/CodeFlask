@@ -105,11 +105,11 @@ export default class CodeFlask {
     if (typeof this.opts.handleTabs !== 'boolean') {
       this.opts.handleTabs = true
     }
-    // if handleTabs is not either true or false, make it true by default
+    // if handleSelfClosingCharacters is not either true or false, make it true by default
     if (typeof this.opts.handleSelfClosingCharacters !== 'boolean') {
       this.opts.handleSelfClosingCharacters = true
     }
-    // if handleTabs is not either true or false, make it true by default
+    // if handleNewLineIndentation is not either true or false, make it true by default
     if (typeof this.opts.handleNewLineIndentation !== 'boolean') {
       this.opts.handleNewLineIndentation = true
     }
